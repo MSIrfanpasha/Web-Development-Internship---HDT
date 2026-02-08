@@ -1,4 +1,4 @@
-# Week 1 – Web Development Basics & HTML
+cd# Week 1 – Web Development Basics & HTML
 
 ## Topics Learned
 - Introduction to web development
