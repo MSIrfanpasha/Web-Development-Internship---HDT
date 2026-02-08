@@ -54,6 +54,10 @@ project completed during the internship.
 
 ---
 
+## 👤 Author
+**Irfan Pasha MS**  
+Web Development Intern 
+
 ## 📜 License
 This project is licensed under the **MIT License**.
 
