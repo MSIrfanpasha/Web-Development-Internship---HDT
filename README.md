@@ -1,6 +1,6 @@
 # Web Development Internship – Harshan Digitech IT Solutions & Services
 
-**4-Week Web Development Internship using PHP**  
+** 🎯 4-Week Web Development Internship using PHP**  
 Harshan Digitech IT Solutions & Services
 
 ---
