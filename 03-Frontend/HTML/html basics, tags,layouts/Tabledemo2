@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th colspan="4">Student information</th>
+        </tr>
+        <tr>
+            <th>Slno</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile No.</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Aldof Hitler</td>
+                <td>Deutschland</td>
+                <td>64564682</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>George Bush</td>
+                <td>Texas</td>
+                <td>67893743</td>
+            </tr>
+             <tr>
+                <td>3</td>
+                <td>Nepolean</td>
+                <td>Barcelona</td>
+                <td>78463787</td>
+            </tr>
+             <tr>
+                <td>4</td>
+                <td>Obama</td>
+                <td>Detroit</td>
+                <td>73987347</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>John Hilton</td>
+                <td>Colombia</td>
+                <td>45749585</td>
+            </tr>
+    </table>
+</body>
+</html>
