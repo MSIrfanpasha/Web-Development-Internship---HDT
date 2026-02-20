@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider background-image</title>
+
+    <style>
+        .box{
+            height: 60vh;
+            width: 70%;
+            ;
+            background-color: lightblue;
+          align-items: center;
+          justify-content: center;
+          background-repeat: no-repeat;
+          animation: slider 15s infinite;
+            background-size: cover;
+            border-radius: 40vh;
+
+        }
+
+        @keyframes slider{
+        30%{
+        background-color: blue;
+        }
+        45%{
+        background-color: lime;
+        }
+        70%{
+            background-color: magenta;
+        }
+        100%{
+            background-color: cyan;
+        }
+        
+    }
+
+       
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3 Boxes with Transition</title>
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column; /* Makes boxes one under another */
+            gap: 20px;
+        }
+
+        .box{
+            width: 200px;
+            height: 100px;
+            background-color: maroon;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border-bottom-left-radius: 20%;
+
+            /* Transition Effect */
+            transition: all ms2 ease-in-out;
+        }
+
+        .box:hover{
+            background-color: darkblue;
+            transform: scale(1.1);
+            box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+
+    
+        <div class="box">Box </div>
+        <div class="box">Box </div>
+        <div class="box">Box </div>
+    </div>
+
+</body>
+</html>
