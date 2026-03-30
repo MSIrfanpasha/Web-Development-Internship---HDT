@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Company</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 5px;
+        }
+        .header{
+            height: 100px;
+            width: 100%;
+            background-image: linear-gradient(to left,red,black);
+            display: flex;
+            border-radius: 20px;
+        }
+         .logo img{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin: 10px 20px;
+        }
+        .nav{
+            width: 70%;
+            float: right;
+            align-content: center;
+            justify-content: center;
+            margin-left: 30%;
+        }
+        .nav a{
+            text-decoration: none;
+            font-size: 24pt;
+            color: white;
+            padding: 5px 10px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        .nav a:hover{
+            color: orange;    
+        }
+        /*company*/
+        .company{
+            height: 50vh;
+            width: 100%;
+            background-color: gray;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        .heading{
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to right,rgba(255,0,0,0.2),rgba(0,0,0)),url('1.jpg');
+            background-size:contain;
+            border-radius: 20px;
+            align-content: center;
+            justify-items: center;
+            animation: images 5s infinite;
+            }
+            @keyframes images{
+                25%{
+                    background-image:linear-gradient(to right,rgba(255,0,0,0.2),rgba(0,0,0)),url('demoimg1.jpg');
+                }
+                50%{
+                    background-image:linear-gradient(to right,rgba(255,0,0,0.2),rgba(0,0,0)), url('demoimg2.jpg');
+                }
+                100%{
+                    background-image:linear-gradient(to right,rgba(255,0,0,0.2),rgba(0,0,0)), url('demoimg3.avif');
+                }
+            }
+            .heading h1{
+                font-size: 60px;
+                color: whitesmoke;
+                text-shadow: 2px 2px black;
+                animation: colors 2s infinite;
+            }
+            @keyframes colors{
+                25%{
+                    color:whitesmoke;
+                }
+                50%{
+                    color:greenyellow;
+                     }
+                     75%{
+                        color:orange;
+                     }
+                     100%{
+                        color:whitesmoke;
+                     }
+            }
+            .heading h3{
+                color: whitesmoke;
+                text-shadow: 2px 2px black;
+            }
+            .about{
+                height: 60vh;
+                width: 100%;
+                background-color: lightgreen;
+                padding: 20px;
+                margin-top: 20px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+                align-items: center;
+            }
+
+            .abtimg{
+                width: 40%;
+                height: 80%;
+                border-radius: 20px;
+                box-shadow: 3px 3px 5px black;
+
+            }
+            .abtimg img{
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+                
+            }
+            .abtcontent{
+                width: 50%;
+                height: 80%;
+                margin-left: 40px;
+
+            }
+
+            .contact{
+                height: 65vh;
+                width: 100%;
+                background-color: lightseagreen;
+                padding: 20px;
+                margin-top: 20px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+                align-items: center;
+            }
+            .contform{
+                width: 40%;
+                height: 90%;
+                padding: 30px;
+                background-color:beige;
+                border-radius: 20px;
+
+            }
+            .contform input[type=text],input[type=email],label{
+                width: 100%;
+                height: 30px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                padding-left: 5px;
+          
+
+            }
+            .contform input[type=submit]{
+                width: 100%;
+                height: 30px;
+                 margin-bottom: 10px;
+                border-radius: 10px;
+                border: none;
+                background-color: lightskyblue;
+            }
+
+                .contform input[type=submit]:hover{
+                width: 100%;
+                height: 30px;
+                margin-top: 10px;
+                border-radius: 10px;
+                border: none;
+                background-color: green;
+            }
+
+        
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="demologo.jpg" alt="">
+        </div>
+        <div class="nav">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#login">Login</a>
+                <a href="Signup">SignUp</a>
+            </nav>
+        </div>
+    </header>
+    <section class="company">
+        <div class="heading">
+            <h1>ABC Company</h1>
+            <h3>Chikkballapura</h3>
+        </div>
+    </section>
+ </section>
+    <section class="about">
+        <div class="abtimg">
+            <img src="demoimg2.jpg" alt="">
+        </div>
+        <div class="abtcontent">
+            <h3>
+                About ABC company
+            </h3>
+            <p> The ABC Company Which located Center part of Chikbalapur
+                And which was started in the year 2026. And our ABC Company. 
+                Which provides. Software build. Software development.
+                Software testing and maintenance. For client and server side. 
+                 </p>
+                 <p>our company have more than 2000 employes
+                     and we took 5000+ onsite pojects, and we are develop industri standards pojects</p>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contform">
+            <form action="" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="uname" placeholder="Enter your full name" required>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Others">Others
+                <label>Addres</label>
+                <input type="text" name="address" placeholder="Enter your address" required>
+                <label for="">Email</label>
+                <input type="email" name="email" placeholder="test@gmail.com" required>
+                <label for="">Mobile Number</label>
+                <input type="text" name="mobile" placeholder="Enter your 10 digits mobile number" required>
+                <input type="submit" value="Send">
+            </form>
+            <div class="continfo">
+                <h3>Contact us</h3>
+                <h4>Abc company</h4>
+                <address>
+                    3<sup>rd</sup> cross, hosur<br>
+                    blr<br>
+                    moblie no: 534535643. <br>
+                    email:abccompany@gmail.com
+                    
+
+                </address>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31051.799731347233!2d77.66901685000002!3d13.38289000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1e445ebfcea17%3A0x1639f72959196608!2sNandi%20Hills%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1771839651513!5m2!1sen!2sin" width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+    </section>
+    <footer style="justify-content:center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 5px; 
+    align-content: center; 
+    height: 20vh;
+    background-color:  black;width: 100%;">
+        <h3 style="padding:10px;color:white;text-align: center;">
+            Copyright @ ABC company -2026</h3>
+    </footer>
+</body>
+</html>

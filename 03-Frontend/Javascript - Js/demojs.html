@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <h1 id="demo">Hello</h1>
+
+     <!--inline js-->
+    <input type="button"    value="Click me" onclick="document.getElementById('demo').innerHTML=
+     'I like to learn java script'">
+
+     <hr>
+     <h1 id="demo2">Hi</h1>
+     <input type="button" value="clik me" onclick="myfun1()">
+     <hr>
+
+     <!--External JS-->
+        <h1 id="demo3">HAI</h1>
+        <input type="button" value="click here" onclick="myfun2()">
+        <script src="sample.js"></script>
+     <script>
+
+        function myfun1(){
+            alert(" I want to ride BMW car");
+            document.getElementById('demo2').innerHTML="i am the ghost";
+        }
+
+     </script>
+
+</body>
+</html>

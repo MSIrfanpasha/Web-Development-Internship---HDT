@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="Age">Age</label>
+    <input type="text" id="input">
+    <input type="button" value="check" onclick="agecheck()">
+    <script>
+        function agecheck(){
+            var x=document.getElementById('input');
+        
+            if(x <= 18){
+                alert("your age is less tham 18");
+            }
+                else{
+
+                    alert("your age is above 18");
+                }
+            
+        }
+    </script>
+</body>
+</html>
