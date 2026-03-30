@@ -43,7 +43,7 @@ server-side scripting, database integration, and basic deployment.
 
 ## Project Work
 During this internship, I worked on web development projects that
-demonstrate my understanding of PHP, MySQL, and frontend technologies.
+demonstrate my understanding of PHP, MySQL, XAMPP and frontend technologies.
 
 ➡️ **Main Project Repository:**  
 [Web Development Project](../07-Final-Project)
