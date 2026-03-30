@@ -1,4 +1,4 @@
-# Final Project – PHP Web Application
+# Final Project – **Car-Rental-Portal-Using-PHP-and-MySQL** | PHP Web Application
 
 ## Overview
 This is the final project developed during my **Web Development Internship**.  
@@ -52,14 +52,14 @@ professional project structuring.
 
 ---
 
-## How to Run Locally
-1. Install **XAMPP** or **WAMP**
+## How to Run Deployment of the project Locally
+1. Install **XAMPP**
 2. Start **Apache** and **MySQL**
 3. Place the project folder inside:
 htdocs
 
 4. Open a browser and visit:
-http://localhost/your-project-folder
+http://localhost/project-folder
 
 
 ---
@@ -74,11 +74,11 @@ http://localhost/your-project-folder
 ---
 
 ## Project Status
-🔄 **In Progress**  
+🔄 **Completed Sucessfully**  
 (The project will be enhanced with additional features.)
 
 ---
 
 ## Author
-**Irfan Pasha MS**  
+**Irfan Pasha M S**  
 Web Development Intern
