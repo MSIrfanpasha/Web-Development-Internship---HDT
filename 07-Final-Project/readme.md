@@ -59,6 +59,7 @@ professional project structuring.
 htdocs
 
 4. Open a browser and visit:
+http://car-rental-portal.infinityfreeapp.com/
 http://localhost/project-folder
 
 
