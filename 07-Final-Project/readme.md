@@ -1,12 +1,12 @@
 # Final Project – **Car-Rental-Portal-Using-PHP-and-MySQL** | PHP Web Application
 
 ## Overview
-This is the final project developed during my **Web Development Internship**.  
+This is the final Group project developed during my **Web Development Internship**.  
 
 The project demonstrates the complete workflow of building
 a dynamic web application using **PHP and MySQL**.
 
-- It reflects my understanding of frontend development,
+- It reflects my understanding of frontend and backend development,
 server-side scripting, database integration, and
 professional project structuring.
 
