@@ -1,12 +1,12 @@
 # Web Development Internship – Harshan Digitech IT Solutions & Services
 
-** 🎯 4-Week Web Development Internship using PHP**  
+** 🎯 Web Development Internship using PHP**  
 Harshan Digitech IT Solutions & Services
 
 ---
 
 ## 📖 About This Repository
-This repository documents my **4-week Web Development Internship** at  
+This repository documents my **Web Development Internship** at  
 **HDT – Harshan Digitech**.
 
 It tracks my learning progress, hands-on practice, mini projects, and the final
@@ -15,11 +15,10 @@ project completed during the internship.
 ---
 
 ## 📌 Internship Details
-- **Organization:** Harshan Digitech IT Solutions & Services  
-- **Program:** Web Development Internship using PHP  
-- **Duration:** 4 Weeks  
+- **Organization:** Harshan Digitech Computer Solutions & Services  
+- **Program:** Web Development Internship using PHP    
 - **Role:** Web Development Intern  
-- **Mode:** Online / Offline / Hybrid  
+- **Mode:** On-site
 
 ---
 
@@ -64,5 +63,5 @@ This project is licensed under the **MIT License**.
 ---
 
 ## 📌 Note
-This repository is created for **learning and portfolio purposes** as part of my
+This repository was created for **learning and portfolio purposes** as part of my
 internship program.
