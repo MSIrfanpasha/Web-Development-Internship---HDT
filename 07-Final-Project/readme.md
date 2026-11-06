@@ -1,4 +1,4 @@
-# Final Project – **Car-Rental-Portal-Using-PHP-and-MySQL** | PHP Web Application
+# Final Group Project – **Car-Rental-WEB APPLIACTION-Using-PHP-and-MySQL** | PHP Web Application
 
 ## Overview
 This is the final Group project developed during my **Web Development Internship**.  
@@ -57,9 +57,7 @@ professional project structuring.
 2. Start **Apache** and **MySQL**
 3. Place the project folder inside:
 htdocs
-
 4. Open a browser and visit:
-http://car-rental-portal.infinityfreeapp.com/
 http://localhost/project-folder
 
 
